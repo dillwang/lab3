@@ -22,4 +22,10 @@ public class ArrayTests {
   }
 
 
+  @Test
+  public void testAverageWithoutLowest(){
+    double[] input1 = { 1 };
+    assertEquals(0, ArrayExamples.averageWithoutLowest(input1), 0.001);
+  }
+
 }
